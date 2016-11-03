@@ -47,8 +47,13 @@ nav .navbar-right > li {
 }
 
 #main-content {
-  width: 960px;
   margin-top: 32px;
-  margin-left: 50px;
+  margin-left: 118px;
   background-color: #fff;
+  
+}
+
+.about-me-content{
+  width: 650px;
+  
 }
