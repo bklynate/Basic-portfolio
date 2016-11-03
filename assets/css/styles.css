@@ -57,19 +57,25 @@ nav li:not(:first-child):after {
 
 hr {
   border: 1px solid #bbc;
-
 }
 
 #main-content {
   margin-top: 32px;
   margin-left: 118px;
   background-color: #fff;
-
+  float: left;
 }
 
 .about-me-content{
   width: 650px;
   padding: 45px 10px 25px 31px;
+}
+
+.about-me-content > p {
+  font-size: 18px;
+  color: #bbc;
+  line-height: 30px;
+  padding-top: 20px;
 }
 
 .about-me-header {
@@ -78,4 +84,44 @@ hr {
   color: #4aaaa5;
   font-weight: bold;
   margin-bottom: 33px;
+}
+
+#connect-with-me-area {
+  background-color: white;
+  float: right;
+  width: 270px;
+  margin-top: 32px;
+  margin-right: 229px;
+  padding: 30px 30px 43px 30px;
+}
+
+.connect-with-me-header {
+  font-size: 25px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #4aaaa5;
+}
+
+.connect-with-me-photo {
+  height: 55px;
+  width: 55px;
+}
+
+#images{
+  padding-top: 15px;
+  text-align: center;
+}
+
+#nate_image {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 15px;
+}
+
+footer {
+  padding-top: 66px;
+  text-align: center;
+  clear: both;
 }
