@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav {
+  background: yellow;
+  height: 50px;
+  padding-top: 55px
+}
+
+.logo {
+  display: inline;
+  margin-left: 30px;
+}
+nav ul {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+nav li {
+  float: right;
+  margin-left: 15px;
+}
+
+#about-me-content {
+  margin-top: 100px;
+}
