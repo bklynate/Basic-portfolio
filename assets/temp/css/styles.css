@@ -24,7 +24,9 @@ nav .logo {
   padding-bottom: 5px;
   background: #4aaaa5;
   font-size: 24px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
   padding-top: 25px;
+  font-weight: bold;
 }
 
 nav .logo > a {
@@ -63,5 +65,12 @@ nav li:not(:first-child):after {
 
 .about-me-content{
   width: 650px;
+  padding: 45px 10px 25px 31px;
+}
 
+.about-me-header {
+  font-size: 32px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  color: #4aaaa5;
+  font-weight: bold;
 }
