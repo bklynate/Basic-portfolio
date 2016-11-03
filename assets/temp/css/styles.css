@@ -56,6 +56,11 @@ nav li:not(:first-child):after {
     padding-left: 10px;
 }
 
+hr {
+  border: 1px solid #bbc;
+
+}
+
 #main-content {
   margin-top: 32px;
   margin-left: 118px;
@@ -73,4 +78,5 @@ nav li:not(:first-child):after {
   font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
   color: #4aaaa5;
   font-weight: bold;
+  margin-bottom: 33px;
 }
