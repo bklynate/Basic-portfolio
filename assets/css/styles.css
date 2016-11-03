@@ -5,10 +5,11 @@ html, body {
 
 body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url(../images/ignasi_pattern_s.png)
 }
 
 nav {
-  background: #eeeeee;
+  background: #fff;
   height: 70px;
   width: 100%;
   text-decoration: none;
@@ -17,10 +18,21 @@ nav {
 nav .logo {
   float: left;
   height: 40px;
-  padding: 15px 30px;
+  /*margin: 24px 30px 15px 114px;*/
+  margin-left: 114px;
+  padding: 10px;
+  padding-bottom: 5px;
+  background: #4aaaa5;
+  font-size: 24px;
+  padding-top: 25px;
 }
 
-nav .logo > a, nav .navbar-right > li > a {
+nav .logo > a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .navbar-right > li > a {
   text-decoration: none;
   color: #000;
 }
@@ -34,6 +46,9 @@ nav .navbar-right > li {
   padding-left: 15px
 }
 
-#about-me-content {
-  margin-top: 100px;
+#main-content {
+  width: 960px;
+  margin-top: 32px;
+  margin-left: 50px;
+  background-color: #fff;
 }
