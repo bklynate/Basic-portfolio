@@ -39,6 +39,10 @@ nav .navbar-right > li > a {
   color: #bbc;
 }
 
+nav .navbar-right > li > a:hover {
+  color: #4aaaa5;
+}
+
 nav .navbar-right {
   padding: 15px 30px;
   float: right;
@@ -95,7 +99,6 @@ hr {
   margin-top: 32px;
   margin-right: 229px;
   padding: 30px 30px 43px 30px;
-
 }
 
 .connect-with-me-header {
