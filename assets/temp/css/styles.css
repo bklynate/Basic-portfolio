@@ -134,9 +134,7 @@ hr {
 }
 
 .footer {
-  margin-top: 55px;
   position: relative;
-  height: 50px;
   clear: both;
   width: 100%;
   text-align: center;
@@ -144,11 +142,13 @@ hr {
 }
 
 .two-toned-footer-color {
-  height: 6px;
+  height: 3px;
+  padding-top: 3px;
   background-color: #4aaaa5;
 }
 
 footer > p {
-  padding-top: 20px;
+  padding-top: 30px;
   color: white;
+  padding-bottom: 30px;
 }
