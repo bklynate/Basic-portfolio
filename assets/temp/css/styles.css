@@ -65,6 +65,7 @@ hr {
   margin-left: 118px;
   background-color: #fff;
   float: left;
+  margin-bottom: 50px;
 }
 
 .about-me-content{
@@ -126,11 +127,17 @@ hr {
   min-height: 100%;
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -60px;
 }
 
-.footer, .push {
-  height: 60px;
+.push {
+  padding-bottom: 50px;
+}
+
+.footer {
+  padding-top: 55px;
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
   clear: both;
   width: 100%;
   text-align: center;
@@ -138,5 +145,5 @@ hr {
 }
 
 footer > p {
-  margin-top: 43px;
+  color: white;
 }
