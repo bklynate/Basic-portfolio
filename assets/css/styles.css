@@ -142,7 +142,10 @@ hr {
   background-color: #666;
 }
 
-
+.two-toned-footer-color {
+  height: 6px;
+  background-color: #4aaaa5;
+}
 footer > p {
   padding-top: 20px;
   color: white;
