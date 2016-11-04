@@ -155,3 +155,23 @@ footer > p {
   color: white;
   padding-bottom: 30px;
 }
+
+/* CONTACT FORM CSS */
+
+.contact-form {
+  width: 650px;
+  padding: 45px 10px 25px 31px;
+  background-color: #fff;
+  float: left;
+  margin-bottom: 50px;
+  margin-top: 32px;
+  margin-left: 118px;
+}
+
+.contact-form-header {
+  font-size: 32px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  color: #4aaaa5;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
