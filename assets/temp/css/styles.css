@@ -156,7 +156,11 @@ footer > p {
   padding-bottom: 30px;
 }
 
+/*-------------------*/
+
 /* CONTACT FORM CSS */
+
+/*-------------------*/
 
 .contact-form {
   width: 650px;
@@ -164,7 +168,7 @@ footer > p {
   background-color: #fff;
   float: left;
   margin-bottom: 50px;
-  margin-top: 32px;
+  margin-top: 30px;
   margin-left: 118px;
 }
 
@@ -174,4 +178,27 @@ footer > p {
   color: #4aaaa5;
   font-weight: bold;
   margin-bottom: 33px;
+}
+
+#name_input,
+#mail_input,
+#msg {
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  height: 30px;
+}
+
+#msg {
+  height: 200px;
+}
+
+#label-name,
+#label-msg,
+#label-mail {
+  font-size: 15px
+}
+
+.contact-hr {
+  margin-bottom: 30px;
 }
