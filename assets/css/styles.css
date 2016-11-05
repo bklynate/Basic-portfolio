@@ -150,6 +150,12 @@ hr {
   background-color: #4aaaa5;
 }
 
+footer {
+  margin-top: 700px;
+  position: fixed;
+  z-index: 999999999;
+}
+
 footer > p {
   padding-top: 30px;
   color: white;
