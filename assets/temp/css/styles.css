@@ -142,25 +142,18 @@ hr {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   clear: both;
   width: 100%;
   text-align: center;
   background-color: #666;
+  bottom: 0;
 }
 
 .two-toned-footer-color {
   height: 3px;
   padding-top: 3px;
   background-color: #4aaaa5;
-}
-
-.footer {
-  margin-top: 700px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 
 .footer > p {
