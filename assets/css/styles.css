@@ -4,6 +4,12 @@ body {
   width: 100%;
 }
 
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-image: url(../../images/ignasi_pattern_s.png)
@@ -194,12 +200,13 @@ footer > p {
 
 #msg {
   height: 200px;
+  border-color: #bbc;
 }
 
-#label-name,
-#label-msg,
-#label-mail {
-  font-size: 15px;
+.label-name,
+.label-msg,
+.label-mail {
+  font-size: 17px;
   color: #bbc;
 }
 
