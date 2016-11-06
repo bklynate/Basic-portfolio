@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -24,7 +25,7 @@ nav .logo {
   padding-bottom: 5px;
   background: #4aaaa5;
   font-size: 24px;
-  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  font-family: Georgia, Times, 'Times New Roman', serif;
   padding-top: 25px;
   font-weight: bold;
 }
@@ -153,7 +154,7 @@ hr {
 footer {
   margin-top: 700px;
   position: fixed;
-  z-index: 999999999;
+  bottom: 0;
 }
 
 footer > p {
@@ -198,7 +199,8 @@ footer > p {
 #label-name,
 #label-msg,
 #label-mail {
-  font-size: 15px
+  font-size: 15px;
+  color: #bbc;
 }
 
 .contact-hr {
