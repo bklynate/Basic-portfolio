@@ -530,3 +530,149 @@ and (max-device-width : 568px) {
   }
 
 }
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  nav {
+    background: #fff;
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+    overflow: auto;
+  }
+
+  nav .logo {
+    float: left;
+    height: 40px;
+    /*margin: 24px 30px 15px 114px;*/
+    margin-left: 0px;
+    padding: 10px;
+    padding-bottom: 5px;
+    background: #4aaaa5;
+    font-size: 24px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+
+  nav .logo > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav .navbar-right > li > a {
+    text-decoration: none;
+    color: #bbc;
+  }
+
+  nav .navbar-right > li > a:hover {
+    color: #4aaaa5;
+  }
+
+  nav .navbar-right {
+    padding: 15px 30px;
+    float: none;
+  }
+
+  nav .navbar-right > li {
+    float: right;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #bbc;
+  }
+
+  nav li:not(:first-child):after {
+      content: " | ";
+      padding-left: 10px;
+  }
+
+  hr {
+    border: 1px solid #bbc;
+    margin-right: 10px;
+  }
+
+  #main-content {
+    margin-top: 32px;
+    margin-left: 40px;
+    background-color: #fff;
+    float: left;
+    margin-bottom: 50px;
+  }
+
+  .about-me-content{
+    width: 650px;
+    padding: 45px 10px 25px 31px;
+  }
+
+  .about-me-content > p {
+    font-size: 18px;
+    color: #bbc;
+    line-height: 30px;
+    padding-top: 20px;
+  }
+
+  .about-me-header {
+    font-size: 32px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom: 33px;
+  }
+
+  #connect-with-me-area {
+    background-color: white;
+    float: right;
+    width: 500px;
+    margin-top: 32px;
+    margin-right: 100px;
+    padding: 30px 30px 43px 30px;
+  }
+
+  .connect-with-me-header {
+    font-size: 25px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #4aaaa5;
+    text-align: center;
+  }
+
+  .connect-with-me-photo {
+    height: 55px;
+    width: 55px;
+  }
+
+  #images{
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  #nate_image {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-right: 15px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666;
+  }
+
+  .two-toned-footer-color {
+    height: 3px;
+    padding-top: 3px;
+    background-color: #4aaaa5;
+  }
+
+  footer > p {
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 30px;
+  }
+
+}
