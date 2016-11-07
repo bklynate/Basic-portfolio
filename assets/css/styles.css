@@ -417,10 +417,10 @@ and (max-device-width : 568px) {
   nav .navbar-right > li > a {
     text-decoration: none;
     color: #bbc;
-    text-align: center;
+    text-align: justify;
     padding-right: 20px;
-    margin-right: 5px;
     font-size: 12px;
+
   }
 
   nav .navbar-right > li > a:hover {
