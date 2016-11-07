@@ -227,3 +227,107 @@ footer > p {
   width: 233px;
   height: 166px;
 }
+
+/*-------------------*/
+/*    MEDIA QUERIES  */
+/*-------------------*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  nav {
+    background: #fff;
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  nav .logo {
+    float: left;
+    height: 40px;
+    /*margin: 24px 30px 15px 114px;*/
+    margin-left: 8px;
+    padding: 10px;
+    padding-bottom: 5px;
+    background: #4aaaa5;
+    font-size: 15px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+
+  nav .logo > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav .navbar-right > li > a {
+    text-decoration: none;
+    color: #bbc;
+  }
+
+  nav .navbar-right > li > a:hover {
+    color: #4aaaa5;
+  }
+
+  nav .navbar-right {
+    padding: 15px 30px;
+    float: right;
+  }
+
+  nav .navbar-right > li {
+    float: right;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #bbc;
+  }
+
+  nav li:not(:first-child):after {
+      content: " | ";
+      padding-left: 10px;
+  }
+}
+
+/* About me */
+
+#main-content {
+  margin-top: 32px;
+  margin-left: 118px;
+  background-color: #fff;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.about-me-content{
+  width: 650px;
+  padding: 45px 10px 25px 31px;
+}
+
+.about-me-content > p {
+  font-size: 18px;
+  color: #bbc;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.about-me-header {
+  font-size: 32px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  color: #4aaaa5;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
