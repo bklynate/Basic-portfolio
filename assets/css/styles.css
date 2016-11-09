@@ -134,13 +134,18 @@ hr {
   padding-right: 15px;
 }
 
+#wrapper {
+  min-height: 100%;
+}
+
 footer {
-  position: fixed;
+  /*position: fixed;
   bottom: 0;
-  left: 0;
+  left: 0;*/
   width: 100%;
   text-align: center;
   background-color: #666;
+  clear: both;
 }
 
 .two-toned-footer-color {
@@ -154,6 +159,7 @@ footer > p {
   color: white;
   padding-bottom: 30px;
 }
+
 /*-------------------*/
 /* CONTACT FORM CSS */
 /*-------------------*/
