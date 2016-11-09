@@ -120,7 +120,7 @@ hr {
   width: 55px;
 }
 
-#images{
+#images {
   padding-top: 15px;
   text-align: center;
 }
@@ -134,12 +134,10 @@ hr {
 
 #wrapper {
   min-height: 100%;
+  margin-bottom: 100px;
 }
 
 footer {
-  /*position: fixed;
-  bottom: 0;
-  left: 0;*/
   width: 100%;
   text-align: center;
   background-color: #666;
@@ -156,6 +154,7 @@ footer > p {
   padding-top: 30px;
   color: white;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 /*-------------------*/
@@ -171,7 +170,6 @@ footer > p {
   float: left;
   margin-top: 30px;
   margin-left: 118px;
-  margin-bottom: 250px;
 }
 
 .contact-form-header,
@@ -230,7 +228,7 @@ footer > p {
   float: left;
   margin-top: 30px;
   margin-left: 118px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
 }
 
 .port-hr {
@@ -533,7 +531,6 @@ and (max-width : 640px) {
   #nate_image {
     width: 90px;
     height: 90px;
-    float: none;
     padding-right: 15px;
   }
 
