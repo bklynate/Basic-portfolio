@@ -400,7 +400,7 @@ and (max-width : 640px) {
     height: 110px;
     width: 100%;
     text-decoration: none;
-    overflow: auto;
+    overflow: hidden;
   }
 
   nav .logo {
@@ -447,12 +447,13 @@ and (max-width : 640px) {
     padding-top: 13px;
     color: #bbc;
     text-align: center;
+    margin-right: 30px;
   }
 
   nav li:not(:first-child):after {
       content: " | ";
-      padding-left: 0px;
-      padding-right: 15px;
+      padding-left: 50px;
+      padding-right: 50px;
   }
 
   .wrapper {
@@ -525,6 +526,147 @@ and (max-width : 640px) {
     height: 90px;
     float: none;
     padding-right: 15px;
+  }
+
+}
+
+@media only screen
+and (max-width : 320px) {
+
+  nav {
+    background: #fff;
+    height: 110px;
+    width: 100%;
+    text-decoration: none;
+    overflow: auto;
+  }
+
+  nav .logo {
+    float: none;
+    height: 40px;
+    /*margin: 24px 30px 15px 114px;*/
+    margin-left: 0px;
+    padding: 10px;
+    padding-bottom: 5px;
+    background: #4aaaa5;
+    font-size: 12px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding-top: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .logo > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav .navbar-right > li > a {
+    text-decoration: none;
+    color: #bbc;
+    text-align: justify;
+    padding-right: 20px;
+    font-size: 12px;
+
+  }
+
+  nav .navbar-right > li > a:hover {
+    color: #4aaaa5;
+  }
+
+  nav .navbar-right {
+    padding: 1px 1px;
+    float: none;
+  }
+
+  nav .navbar-right > li {
+    float: right;
+    padding-top: 13px;
+    color: #bbc;
+    text-align: center;
+    margin-right: 1px;
+  }
+
+  nav li:not(:first-child):after {
+      content: " | ";
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .wrapper {
+
+  }
+  /* About me */
+
+  #main-content {
+    margin-top: 32px;
+    margin-left: 0px;
+    background-color: #fff;
+    float: none;
+    margin-bottom: 50px;
+    width: auto;
+    overflow: auto;
+    width: 100%;
+  }
+
+  .about-me-content{
+    width: 100%;
+    padding: 25px 2px 10px 15px;
+  }
+
+  .about-me-content > p {
+    font-size: 15px;
+    color: #bbc;
+    line-height: 25px;
+    padding-top: 20px;
+    text-align: left;
+    overflow: auto;
+  }
+
+  .about-me-header {
+    font-size: 20px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom: 33px;
+    text-align: center;
+  }
+
+  #connect-with-me-area {
+    background-color: white;
+    float: none;
+    width: auto;
+    margin: 0 0 90px 0;
+    padding: 30px 30px 43px 30px;
+  }
+
+  .connect-with-me-header {
+    font-size: 20px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #4aaaa5;
+    text-align: center;
+  }
+
+  .connect-with-me-photo {
+    height: 55px;
+    width: 55px;
+  }
+
+  #images{
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  #nate_image {
+    width: 285px;
+    height: 285px;
+    float: none;
+    padding-right: 15px;
+    display: block;
+    overflow: auto;
   }
 
 }
