@@ -129,7 +129,9 @@ hr {
   width: 200px;
   height: 200px;
   float: left;
-  padding-right: 15px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 #wrapper {
@@ -379,7 +381,7 @@ footer > p {
 }
 
 @media only screen
-and (min-width : 640px) {
+and (max-width : 640px) {
 
   nav {
     background: #fff;
@@ -563,7 +565,6 @@ and (max-width : 320px) {
     text-align: justify;
     padding-right: 20px;
     font-size: 12px;
-
   }
 
   nav .navbar-right > li > a:hover {
@@ -592,6 +593,7 @@ and (max-width : 320px) {
   .wrapper {
 
   }
+
   /* About me */
 
   #main-content {
@@ -812,7 +814,7 @@ and (max-device-width : 1024px)  {
 }*/
 
 @media only screen
-and (min-width : 768px) {
+and (max-width : 768px) {
   footer > p {
     color: red;
   }
