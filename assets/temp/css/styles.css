@@ -414,74 +414,67 @@ and (max-width : 980px) {
     padding-bottom: 30px;
     text-align: center;
   }
+  /*-------------------*/
+  /*   END INDEX.html  */
+  /*-------------------*/
+
+
+  /*-------------------*/
+  /* START CONTACT.html */
+  /*-------------------*/
+  .contact-form {
+    width: 345px;
+    padding: 45px 10px 25px 31px;
+    background-color: #fff;
+    float: left;
+    margin-top: 30px;
+    margin-left: 118px;
+  }
+
+  .contact-form-header,
+  .port-header {
+    font-size: 32px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom: 33px;
+  }
+
+  #name_input,
+  #mail_input,
+  #msg {
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    height: 30px;
+  }
+
+  #msg {
+    height: 200px;
+    border-color: #bbc;
+  }
+
+  .label-name,
+  .label-msg,
+  .label-mail {
+    font-size: 17px;
+    color: #bbc;
+  }
+
+  .contact-hr {
+    margin-bottom: 30px;
+  }
+
+  .submit-btn {
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #4aaaa5;
+    border: 0;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  /*-------------------*/
+  /* END  CONTACT.html */
+  /*-------------------*/
 }
-
-/*-------------------*/
-
-/*   END INDEX.html  */
-
-/*-------------------*/
-
-/*-------------------*/
-
-/* START CONTACT.html */
-
-/*-------------------*/
-
-.contact-form {
-  width: 345px;
-  padding: 45px 10px 25px 31px;
-  background-color: #fff;
-  float: left;
-  margin-top: 30px;
-  margin-left: 118px;
-}
-
-.contact-form-header,
-.port-header {
-  font-size: 32px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  color: #4aaaa5;
-  font-weight: bold;
-  margin-bottom: 33px;
-}
-
-#name_input,
-#mail_input,
-#msg {
-  width: 95%;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  height: 30px;
-}
-
-#msg {
-  height: 200px;
-  border-color: #bbc;
-}
-
-.label-name,
-.label-msg,
-.label-mail {
-  font-size: 17px;
-  color: #bbc;
-}
-
-.contact-hr {
-  margin-bottom: 30px;
-}
-
-.submit-btn {
-  padding: 15px 30px;
-  color: #fff;
-  background-color: #4aaaa5;
-  border: 0;
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-/*-------------------*/
-
-/* END  CONTACT.html */
-
-/*-------------------*/
