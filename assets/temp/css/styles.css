@@ -244,6 +244,44 @@ footer > p {
 
 /*-------------------*/
 
+/* MEDIA QUERIES 1368px */
+
+/*-------------------*/
+
+/*-------------------*/
+
+/* START INDEX.html  */
+
+/*-------------------*/
+
+@media only screen
+and (max-width : 1368px)
+and (max-width : 1368px) {
+  .about-me-content {
+    width: 355px;
+    padding: 45px 10px 25px 31px;
+  }
+
+  .about-me-content > p {
+    font-size: 17px;
+  }
+
+  #connect-with-me-area {
+    background-color: white;
+    float: right;
+    width: 178px;
+    margin-top: 32px;
+    margin-right: 229px;
+    padding: 30px 30px 43px 30px;
+  }
+  /*-------------------*/
+  /*   END INDEX.html  */
+  /*-------------------*/
+
+}
+
+/*-------------------*/
+
 /* MEDIA QUERIES 980px */
 
 /*-------------------*/
@@ -339,7 +377,6 @@ and (max-width : 980px) {
   .about-me-content{
     width: 325px;
     padding: 45px 10px 25px 31px;
-
   }
 
   .about-me-content > p {
